@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <link href="main.css" rel="stylesheet">
+    <title>
+        CafeKat - A Cafe on Your Art Journey
+    </title>
+
+</head>
+
+<body class='home' id="Main">
+    <h1 class='title'>
+    CafeKat
+    </h1>
+    <nav>
+        <ul id="Pages">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Art</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Send me an email!</h2>
+
+        <form action="http://mprescott.greatbay.cc/tests/process.php" method="post">
+            <div>
+                <label for="firstname">FirstName:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="First name" required>
+                <label for="lastname">LastName:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last name" required>
+            </div>
+            <div>
+                <label for="e-mail">Email:</label>
+                <input type="email" id="e-mail" placeholder="format for email is xxx@yyy.zzz" required>
+            </div>
+
+            <div>
+                <h3>Message</h3>
+            </div>
+
+            <div>
+                <label for="messageBox"></label>
+                <input type="text" name="messageBox" id="messageBox" required>
+            </div>
+
+            <div>
+                <input type="checkbox" required> I agree to the terms of the site.
+            </div>
+            <div>
+                <input type="submit" value="Send Message!" > <input type="reset">
+            </div>
+        </form>
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>  
+    
+</html>
